@@ -8,6 +8,7 @@
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 16px;
+  text-indent: 24px;
 }
 .intro p:last-child {
   font-size: 20px;
@@ -26,6 +27,7 @@
   font-size: 15px;
   line-height: 30px;
   margin-bottom: 30px;
+  text-indent: 24px;
 }
 .openpower .lmod,
 .openpower .rmod {
@@ -89,6 +91,11 @@
 .schedule .lmod li span:first-child,
 .schedule .rmod li span:first-child {
   margin-right: 28px;
+  width: calc(100% - 200px);
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
 }
 .schedule .lmod li span:last-child,
 .schedule .rmod li span:last-child {
@@ -131,6 +138,9 @@
 }
 .schedule .rmod li span {
   float: left;
+}
+.schedule .rmod li span:first-child {
+  width: auto;
 }
 .schedule .rmod li p {
   width: calc(100% - 130px);
@@ -199,7 +209,7 @@
 .relate h2:before,
 .download h2:after,
 .relate h2:after {
-  width: 120px;
+  width: 110px;
 }
 .download li,
 .relate li {
@@ -280,92 +290,4 @@
   width: auto;
   margin-right: 40px;
   margin-bottom: 20px;
-}
-.totop {
-  position: fixed;
-  right: 20px;
-  width: 180px;
-  top: 10%;
-}
-.totop header,
-.totop footer {
-  background: #29b5e6;
-  padding: 5px;
-  position: relative;
-}
-.totop header:before,
-.totop footer:before,
-.totop header:after,
-.totop footer:after {
-  content: "";
-  width: 4px;
-  height: 9px;
-  background: #108dc4;
-  position: absolute;
-  bottom: -6px;
-  left: 40px;
-}
-.totop header:after,
-.totop footer:after {
-  left: 138px;
-}
-.totop header .container,
-.totop footer .container {
-  border: 1px solid #bfe9f8;
-  width: auto;
-  padding: 15px 6px;
-}
-.totop header h2,
-.totop footer h2 {
-  font-size: 15px;
-  color: #fff;
-  line-height: 1;
-  font-weight: bold;
-  margin: 0;
-}
-.totop header h2:before,
-.totop footer h2:before,
-.totop header h2:after,
-.totop footer h2:after {
-  display: none;
-}
-.totop header img,
-.totop footer img {
-  margin: 12px auto;
-  width: auto;
-  display: block;
-}
-.totop header p,
-.totop footer p {
-  font-size: 14px;
-  line-height: 1;
-  margin-bottom: 8px;
-  color: #fff;
-  text-align: center;
-}
-.totop footer {
-  margin-top: 10px;
-}
-.totop footer:before,
-.totop footer:after {
-  bottom: 0;
-  top: -5px;
-}
-.totop footer .container {
-  padding: 0;
-}
-.totop footer li {
-  height: 32px;
-  border-bottom: 1px solid #54c4eb;
-  text-align: center;
-  line-height: 32px;
-}
-.totop footer li:hover {
-  background: #21a1ce;
-}
-.totop footer a {
-  color: #fff;
-  font-size: 14px;
-  width: 100%;
-  display: inline-block;
 }

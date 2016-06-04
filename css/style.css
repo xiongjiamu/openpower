@@ -1,0 +1,38 @@
+/* CSS Document */
+body,ul,ol,li,dl,dt,dd,form,p,em,span,select,input,textarea,fieldset,abbr,table,td,h1,h2,h3,h4,h5,h6{ margin:0; padding:0;}
+body{ font-size:14px; line-height:1.5em; font-family:'Microsoft Yahei'; background:#edeeef;  }
+ul,ol,li{ list-style:none;}
+select,input,img{ vertical-align:middle; outline:none;}
+img{ border:none;}
+a{color:#1a1a1a}
+a,a:hover{ text-decoration:none; outline:none;}
+html{ overflow-x:hidden;}
+.clearfix:after { content: ""; display: block; clear: both; }
+.clearfix { zoom: 1; }
+.fl { float: left; }
+.fr { float: right;}
+.clear{clear: both}
+textarea{ resize: none;}
+
+
+.zhucB{margin-top: 20px;border: 1px solid #e2e5e7;background: #fff;padding-top: 45px;padding-left: 40px;}
+.zctit{background: url(../images/titbg.png) no-repeat center top;height: 40px;line-height: 40px;font-weight: bold; margin: 0 auto;text-align: center;color: #1a66a4;font-size: 22px;}
+.formul{width: 480px;margin: 30px auto;}
+.formul li {margin-bottom: 20px;}
+.formul li label{text-align: right;display: inline-block;}
+.formul li label i{color: #cd2511}
+.formul li input{border: 1px solid #dddddd;padding: 3px;width: 390px;height: 32px;line-height: 32px;display: inline-block;}
+.formul li select{color: #cccccc;border: 1px solid #dddddd;width: 390px;padding: 3px;height: 32px;line-height: 32px;margin:0;display: inline-block;}
+.formul li.lastse select{width: 190px;margin-right: 10px}
+.btn_tj{display: block;margin: 27px auto; color: #fff;font-size: 22px;line-height: 46px;height: 46px;width: 176px;text-align: center; border-radius: 30px;background-color: #29b5e6}
+
+.mianbx{color: #999999}
+.mianbx a{color: #29b5e6;font-weight: bold}
+.detaicon{width: 944px;margin: 50px auto 0}
+.deta_tit{font-size: 24px;color: #000;text-align: center;line-height: 50px}
+.deta_des{color: #999999;font-size: 14px;text-align: center;display: block;}
+.detaicon p{line-height: 28px;margin: 26px 0;font-size: 16px;text-indent: 24px;}
+
+.detaicon h5{background: url(../images/tit2bg.png) no-repeat  center top;height: 40px;line-height: 40px;font-weight: bold;color: #1a66a4;font-size: 22px;padding-left: 50px;margin-bottom: 20px;}
+.detaicon ul li{line-height: 26px;}
+.detaicon ul li a{color: #2980c7;font-size: 15px;}

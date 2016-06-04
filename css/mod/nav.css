@@ -1,0 +1,30 @@
+/*导航 开始*/
+nav {
+  width: 100%;
+  background: #fff;
+  height: 66px;
+  overflow: hidden;
+  border-bottom: 2px solid #e2e5e7;
+}
+nav ul {
+  overflow: hidden;
+}
+nav li {
+  float: left;
+  font-size: 16px;
+  line-height: 70px;
+  height: 66px;
+  margin-right: 26px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+nav li:hover a,
+nav li.cur a {
+  color: #29b5e6;
+  border-bottom: 3px solid #29b5e6;
+  padding-bottom: 8px;
+}
+nav li a {
+  color: #444;
+}
+/*导航 结束*/
